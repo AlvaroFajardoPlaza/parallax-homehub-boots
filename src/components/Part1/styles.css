@@ -1,7 +1,7 @@
 .hh-logo-white-400 {
-    width: 40%;
-    min-width: 400px;
-    margin-top: 17rem;
+    width: 32%;
+    min-width: 300px;
+    margin-top: 18rem;
 }
 
 .hhCircleBox {
@@ -19,35 +19,12 @@
 @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
   to {-webkit-transform: rotate(360deg);}}
 .hhCircle{
-    width: 43%;
+    width: 41%;
     min-width: 500px;
     -webkit-animation: 20s rotate linear infinite;
     animation: 20s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    opacity: 0.5;
+    opacity: 0.4;
 };
 
-.row-app-download {
-    margin-top: 8rem;
-}
-
-.box-benefit {
-    transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
-    color: white;
-    letter-spacing: 1rem;
-    height: 250px;
-    border-radius: 1rem;
-    background-color: rgba(211, 201, 195, 0.4);
-    border: 1px solid rgba(235, 223, 232, 0.7);
-   
-}
-
-.box-benefit:hover {
-    background-color: rgba(222, 69, 207, 0.4);
-    border: 1px solid rgba(197, 152, 186, 0.7);
-}
-
-.container-benefits {
-    margin-top: 12rem;
-}
