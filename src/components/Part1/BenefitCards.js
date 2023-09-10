@@ -3,7 +3,7 @@ import './styles.css';
 
 const BenefitCards = () => {
   return (
-    <div class='container'>
+    <div>
         <div class='row mt-3 gx-2 gy-2'>
             <div class="col-sm-6 col-lg-3">
                 <div class="card" style={{background:'#ffffff40', color:'#ffffff', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B50'}}>

@@ -1,12 +1,18 @@
 import React from 'react'
 
-const Separador1 = () => {
+const SeparadorHHOffice = () => {
   return (
-        <div classname='d-flex justify-content-lg-between'>
-            <p class='align-self-center lead text-uppercase fs-2 fw-lighter mt-3'>in the palm of your hand...</p>
-            <p class='align-self-center lead text-uppercase fs-2 fw-lighter'>at any time</p>
+    <div class='container'>
+        <div class='row d-flex justify-content-lg-between' style={{marginTop:'3rem', marginBottom:'3rem'}}>
+            <div class='col'>
+              <p class='lead text-start text-uppercase fs-4 fw-lighter mt-3' style={{letterSpacing:'.3rem'}}>in the palm of your hand...</p>
+            </div>
+            <div class='col'>
+              <p class='lead text-end text-uppercase fs-4 fw-lighter mt-3' style={{letterSpacing:'.3rem'}}>at any time</p>
+            </div>
         </div>
+    </div>
   )
 }
 
-export default Separador1
+export default SeparadorHHOffice
