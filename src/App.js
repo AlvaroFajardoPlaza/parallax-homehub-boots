@@ -10,7 +10,6 @@ function App() {
       <PartOne />
       <PartTwo />
       <PartThree />
-      <HHFooter />
     </div>
   );
 }

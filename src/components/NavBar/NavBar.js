@@ -8,14 +8,14 @@ const NavBar = () => {
     <nav class="navbar navbar-expand-lg" style={{backgroundColor:'#ffffff4D'}}>
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src={hhLogo} alt='Homehub Logo' style={{height:'20px', paddingBottom:'5px', marginLeft:'1rem', marginRight:'2rem'}}/>
+                <img src={hhLogo} alt='Homehub Logo' style={{height:'25px', paddingBottom:'5px', marginLeft:'1rem', marginRight:'2rem'}}/>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
                 {/* <li class="nav-item fw-light">
                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -42,8 +42,8 @@ const NavBar = () => {
             </ul>
 
             <form class="d-flex gap-2">
-                <button class="btn btn-outline-light text-uppercase fw-light" style={{letterSpacing:'.2rem', borderRadius:'1rem'}} >register</button>
-                <button class="btn btn-outline-light text-uppercase fw-light" style={{letterSpacing:'.2rem', borderRadius:'1rem'}}>login</button>
+                <button class="btn btn-outline-light text-uppercase fw-light" style={{letterSpacing:'.2rem', borderRadius:'3rem', fontSize:'.8rem', boxShadow:'0px 1px 10px #10506B50'}} >register</button>
+                <button class="btn btn-outline-light text-uppercase fw-light" style={{letterSpacing:'.2rem', borderRadius:'3rem', fontSize:'.8rem', boxShadow:'0px 1px 10px #10506B50'}}>login</button>
             </form>
             </div>
         </div>
