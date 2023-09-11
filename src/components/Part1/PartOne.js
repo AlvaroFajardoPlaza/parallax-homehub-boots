@@ -27,9 +27,9 @@ const PartOne = () => {
 
                     <img className='hh-logo-white-400' src={hhLogoWhite} alt='Homehub Logo' />
                     
-                    <h3 class='lead fs-5 fw-lighter text-white mt-5 font-monospace' style={{letterSpacing:'.25rem'}} >Living life a simpler way</h3>
+                    <h3 class='lead fs-4 fw-lighter text-white mt-5'>Living life a simpler way</h3>
                 
-                <div class='container' style={{marginTop:'10rem'}}>
+                <div class='container mt-5'>
                     <DownloadButtons />
                 </div>
 

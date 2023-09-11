@@ -28,3 +28,8 @@
     opacity: 0.4;
 };
 
+.card {
+    background-color: #ffffff40;
+    border:1px solid #ffffff50;
+    box-shadow: 0px 3px 20px #10506B50;
+}

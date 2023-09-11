@@ -3,14 +3,16 @@ import React from 'react';
 const DownloadButtons = () => {
   return (
     <>
-        <div class='row justify-content-center mt-5'>
-                <div class='col mt-5'>
-                    <button href='#' onClick={()=> new URL('https://www.alvarofajardo.com')} class='btn btn-primary mt-5'>Get Homehub for Android</button>
+      <div class='d-grid justify-content-center mt-5 mb-5'>
+        <div class='row d-flex justify-content-center mt-5 g-2'>
+                <div class='col col-lg-5 mt-5'>
+                    <button href='#' onClick={()=> new URL('https://www.alvarofajardo.com')} class='btn btn-lg btn-primary mt-5 rounded-pill'>Homehub for Android</button>
                 </div>
-                <div class='col mt-5'>
-                    <button href='#' onClick={()=> new URL('https://www.alvarofajardo.com')} class='btn btn-light mt-5'>Get Homehub for iOS</button>
+                <div class='col col-lg-5 mt-5'>
+                    <button href='#' onClick={()=> new URL('https://www.alvarofajardo.com')} class='btn btn-lg btn-light mt-5 rounded-pill'>Homehub for iOS</button>
                 </div>
         </div>
+      </div>
     </>
   )
 };

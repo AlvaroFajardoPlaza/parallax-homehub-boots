@@ -1,6 +1,20 @@
-.hhOffice {
+.sectionTwoHH {
+    letter-spacing:.2rem;
+    line-height: 2.5rem;
+}
+
+.hhOfficeSection {
     background-image: url('../../assets/hhOffice1.1.jpg');
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: #353535;
+    letter-spacing:.2rem;
+    line-height: 2.5rem;
 };
+
+.OfficeContainer {
+    box-shadow: 0px 0px 15px 15px #35353580;
+}

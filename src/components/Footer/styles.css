@@ -1,0 +1,10 @@
+.footer {
+    background-color: #67235080;
+    box-shadow: 0px 3px 20px #020f14c5;
+    border: 1px solid #963375cc;
+    border-radius: 1.5rem;
+};
+
+h5 {
+    letter-spacing: 2.5rem;
+}
