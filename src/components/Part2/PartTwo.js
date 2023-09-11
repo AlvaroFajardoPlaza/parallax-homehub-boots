@@ -12,7 +12,7 @@ const PartTwo = () => {
               blur={{ min: -2, max: 2 }}
               bgImage={hh2}
               bgImageAlt="Homehub-corporate-1"
-              strength={-500}
+              strength={-200}
           >
               
               <div class='container mt-5 mb-5'>
