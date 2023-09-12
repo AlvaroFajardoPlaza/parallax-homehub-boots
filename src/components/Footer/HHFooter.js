@@ -7,11 +7,11 @@ const HHFooter = () => {
     <div class='container footer'>
         <div class='row d-flex justify-content-lg-between g-3 text-white pt-5'>
             
-            <div class='col col-lg-3 col-sm-10'>
+            <div class='col col-lg-3 col-sm-10 ps-4'>
               <div class='d-grid g-2'>
                 <div class='row'>
                   <div class='col col-lg-5 col-sm-6'>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand ps-2" href="#">
                         <img src={hhLogo} alt='Homehub Logo' class="img-fluid" />
                     </a>
                   </div>
@@ -32,7 +32,7 @@ const HHFooter = () => {
 
             <div class='col col-lg-3 col-sm-10'>
               <div class='d-grid g-2'>
-                <h5 class='lead mb-2 text-start'>Homehub Cloud</h5>
+                <h5 class='lead mb-2 text-start ps-2'>Homehub Cloud</h5>
                 <ul class='list-unstyled fw-lighter'>
                   <div class='d-grid g-2'>
                   <li class='list-item btn text-start btn-sm btn-link fw-lighter mt-2 text-white text-decoration-none'>Data Cloud</li>
@@ -45,7 +45,7 @@ const HHFooter = () => {
 
             <div class='col col-lg-3 col-sm-10'>
             <div class='d-grid g-2 text-start'>
-                <h5 class='lead mb-2 text-start'>Homehub Community</h5>
+                <h5 class='lead mb-2 text-start ps-2'>Homehub Community</h5>
                 <ul class='list-unstyled fw-lighter'>
                   <div class='d-grid g-2'>
                     <li class='list-item btn text-start btn-sm btn-link fw-lighter mt-2 text-white text-decoration-none'>Join now</li>
@@ -57,7 +57,7 @@ const HHFooter = () => {
 
             <div class='col col-lg-3 col-sm-10'>
             <div class='d-grid g-2 text-start'>
-                <h5 class='lead mb-2 text-start'>The Company</h5>
+                <h5 class='lead mb-2 text-start ps-2'>The Company</h5>
                 <ul class='list-unstyled fw-lighter'>
                   <div class='d-grid g-2'>
                     <li class='list-item btn text-start btn-sm btn-link fw-lighter mt-2 text-white text-decoration-none'>Our history</li>
